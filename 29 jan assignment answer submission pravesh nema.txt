@@ -1,2 +1,96 @@
 Q.1 Who devloped Python programming language?
+Answer: Guido van Rossum created python programming language.
+
+Q.2 Which type of Programming does Python support?
+Answer: Python is an interpreted programming language, which supports object-oriented, structured, and functional programming.
+
+Q.3 Is Python case sensitive when dealing with identifiers? 
+Answer: yes python is a case sensitive language. when dealing with identifiers it treats upper case and lower case diffrentely.
+
+Q.4 What is the correct extension of the Python file? 
+Answer: the correct extension of the Python file is Py.
+
+Q.5 Is Python code compiled or interpreted?
+Answer: Python has a interpreted code.
+
+Q.6  Name a few blocks of code used to define in Python language?
 Answer: 
+
+if, elif, and else keywords, for different conditions.
+
+for and while keywords for recrurring or repeating codes multiple times.
+
+for example:
+
+a=input("Are you student of PW skill type yes or NO")
+for i in range (1,5,1):
+      if (a=='yes' or a=='Yes' or a=='YES' or a=='Yes' or a=='YEs' or a=='yEs' or a=='yeS'):
+          print("PW skills classes is awesome")
+      elif (a=='no' or a=='NO' or a=='No' or a=='nO'):
+          print("try PW skills class its awesome")
+      else:
+          print("type only yes or no please")
+          
+Q7.State a character used to give single-line comments in Python?
+Answer: # hash is used to give single-line comments in Python.
+
+Q8.Mention functions which can help us to find the version of python that we are currently working on? 
+Answer: sys.version 
+
+Q9.Python supports the creation of anonymous functions at runtime, using a construct called?
+Answer: Lambda
+
+Q10. What does pip stand for python? 
+Answer: Pip is a package-management system which is write in Python and it is used to install and manage software packages.
+
+Q.11 Mention a few built-in functions in python? 
+Answer:
+print()
+str()
+float()
+max()
+min()
+type()
+len()
+id()
+
+Q.12 What is the maximum possible length of an identifier in Python? 
+Answer: 79 character
+
+Q.13 What are the benefits of using Python?
+Answer: 
+it is open source.
+it is as easy as english language.
+less code.
+less complex codes.
+vast libraries.
+
+Q.14  How is memory managed in Python?
+Answer: Memory management in Python involves a private heap containing all Python objects and data structures. The management of this private heap is ensured internally by the Python memory manager. 
+
+Q15. How to install Python on Windows and set path variables? 
+Answer: 
+
+Here are the steps to install Python on Windows and set path variables:
+
+Download the latest version of Python from the official website (https://www.python.org/downloads/).
+
+Run the Python installer and follow the prompts to complete the installation process.
+
+Open the Command Prompt and type the following command: python. This will start the Python interpreter, which you can use to check if Python has been installed correctly.
+
+To set the path variables:
+
+Go to Start menu, search for “Environment Variables”, and click on “Edit the system environment variables”.
+In the System Properties window, click on “Environment Variables”.
+Scroll down to the “System Variables” section and look for the “Path” variable, then click on “Edit”.
+Click on “New” and add the path to the Python installation directory, typically C:\PythonXX\, where XX is the version number of Python installed.
+Restart the Command Prompt and type the following command: python. This will start the Python interpreter, which you can use to check if the path has been set correctly.
+Now you have successfully installed Python on Windows and set the path variables.
+
+
+Q16. Is indentation required in python? 
+Answer: Yes it is required which is use by the help of spaces(whitespaces). without the proper indenting in Python code, IndentationError occurs and the code will not get compiled.
+
+
+
